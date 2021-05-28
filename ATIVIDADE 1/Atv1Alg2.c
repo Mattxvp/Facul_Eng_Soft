@@ -1,4 +1,4 @@
-//ATIVIDADE 1 - ALGORITIMOS E L√ìGICA DE PROGRAMA√á√ÉO 1
+//ATIVIDADE 1 - ALGORITIMOS E L”GICA DE PROGRAMA«AO 2
 //Desenvolvido por: Mathias Prolla - 2021
 
 #include <stdlib.h>
@@ -20,10 +20,10 @@ int main() {
     printf("||||||||| MENU PRINCIPAL ||||||||||||\n");
     printf("\n");
     printf(" 1 - VOTAR \n");
-    printf(" 2 - APURA√á√ÉO DOS VOTOS \n");
+    printf(" 2 - APURA«√O DOS VOTOS \n");
     printf(" 3 - SAIR \n");
     printf("-------------------------------------\n");
-    printf("DIGITE O QUE VOC√ä DESEJA --> ");  
+    printf("DIGITE O QUE VOC  DESEJA --> ");  
     scanf("%i", &opcao_menu);
     fflush(stdin);
 
@@ -31,7 +31,7 @@ int main() {
     {
     case 1:
         system("cls");
-        printf("||||||||| VOTA√á√ÉO-VEREADOR |||||||||\n");
+        printf("||||||||| VOTA«√O-VEREADOR |||||||||\n");
         printf("\n");
         printf("111 - Vereador Joao do Frete\n");
         printf("222 - Vereador Maria da Pamonha\n");
@@ -62,14 +62,14 @@ int main() {
                 break;
             
             default:
-            printf("Este voto √© invalido!\n");
+            printf("Este voto È inv·lido!\n");
             vInvalido = vInvalido + 1;
             break;
         }
         
         system("pause");
         system("cls");
-        printf("||||||||| VOTA√á√ÉO-PREFEITO |||||||||\n");
+        printf("||||||||| VOTA«√O-PREFEITO |||||||||\n");
         printf("\n");
         printf("11 - Para Pr. Dr. Zureta\n");
         printf("22 - Para Pr. Senhor Gomes\n");
@@ -95,9 +95,9 @@ int main() {
                 pVotoNulo = pVotoNulo + 1;
                 break;
             default:
-                printf("Voto inv√°lido!\n");
+                printf("Voto inv·lido!\n");
                 pInvalido = pInvalido + 1;
-                printf("Op√ß√£o inv√°lida!");
+                printf("OpÁ„o inv·lida!");
                 break;
             
         }
@@ -108,20 +108,20 @@ int main() {
 
     case 2:
         system("cls");
-        printf("||||||||| APURA√á√ÉO DOS VOTOS ||||||||||\n");
+        printf("||||||||| APURA«√O DOS VOTOS ||||||||||\n");
         printf("\n");
         printf("--------- VEREADORES ----------\n");
         printf("Vereador Joao do Frete 111: %d votos.\n", vJoao);
         printf("Vereador Maria da Pamonha 222: %d votos.\n", vMaria);
         printf("Vereador Ze da Farmacia 333: %d votos.\n", vZe);
         printf("Votos Nulos 444: %d votos.\n", vVotoNulo);
-        printf("Votos Inv√°lidos: %d votos.\n", vInvalido);
+        printf("Votos Inv·lidos: %d votos.\n", vInvalido);
         printf("\n");
         printf("--------- PREFEITOS -----------\n");
         printf("Prefeito Dr. Zureta 11: %d votos.\n", pZureta);
         printf("Prefeito Senhor Gomes 22: %d votos.\n", pGomes);
         printf("Votos Nulos 44: %d votos.\n", pVotoNulo);
-        printf("Votos Inv√°lidos: %d votos.\n", pInvalido);
+        printf("Votos Inv·lidos: %d votos.\n", pInvalido);
         printf("---------------------------------------\n");
     
         system("pause");
@@ -132,7 +132,7 @@ int main() {
         printf("Finalizando o programa ...");
         break;
     default:
-        printf("N√£o entendi o que voc√™ quis dizer, tente novamente..");
+        printf("N„o entendi o que vocÍ quis dizer, tente novamente..");
         system("cls");
         system("pause");
         fflush(stdin);
