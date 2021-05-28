@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <locale.h>
 //_______________________________________________________________________
-int teste = 0;
+int teste = 2;
 int vJoao = 0, vMaria = 0, vZe = 0, vVotoNulo = 0, vInvalido = 0;
 int pZureta = 0, pGomes = 0, pVotoNulo = 0, pInvalido = 0;
 
