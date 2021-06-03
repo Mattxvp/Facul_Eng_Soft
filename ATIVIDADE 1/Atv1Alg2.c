@@ -1,5 +1,6 @@
-//ATIVIDADE 1 - ALGORITIMOS E LÓGICA DE PROGRAMAÇAO 2
+//ATIVIDADE 1 - ALGORITIMOS E LÓGICA DE PROGRAMA?AO 2
 //Desenvolvido por: Mathias Prolla - 2021
+
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -65,6 +66,7 @@ int main() {
             printf("Este voto é inválido!\n");
             vInvalido = vInvalido + 1;
             break;
+           
         }
         
         system("pause");
@@ -132,7 +134,7 @@ int main() {
         printf("Finalizando o programa ...");
         break;
     default:
-        printf("Não entendi o que você quis dizer, tente novamente..");
+        printf("Não entendi o que voc? quis dizer, tente novamente..");
         system("cls");
         system("pause");
         fflush(stdin);
